@@ -1,6 +1,8 @@
 # Project phase1
 FOR CMU 18734/17731 Project Phase1.
 
+Mention: this is a **group project**. To submit the report to Gradescope, each team should only submit one final report and add the rest team memberes into the submission.
+
 You are given:
  - a finetuned GPT2 model trained on data from [WikiText-103-raw-v1](https://huggingface.co/datasets/Salesforce/wikitext);
  - the test data composed of 1000 member and non-member text data;
