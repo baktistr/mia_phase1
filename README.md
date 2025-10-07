@@ -12,7 +12,7 @@ You are given:
 **You are required to implement one of the three MIAs:**
  - Loss-based attack: you can use CrossEntropyloss or other losses you can come up with, based on the logits.
  - [Min-K attack](https://arxiv.org/pdf/2310.16789).
- - Zlib attack: calibrates loss with target sample x’s [zlib](https://docs.python.org/3/library/zlib.html) compression size: score(x) = loss(x) / zlib(x). You may also try other compression methods.
+ - Zlib attack: calibrates loss with target sample x’s [zlib](https://docs.python.org/3/library/zlib.html) compression size (the number of bytes after compression): score(x) = loss(x) / zlib(x). You may also try other compression methods.
 
 As your **final deliverable**, write a report with two sections:
  - Methodology [1-2 paragraphs]: What algorithm did you implement? Give a brief description of it and the formula if any.
